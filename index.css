@@ -1,0 +1,79 @@
+body,html{
+    height: 100%;
+    margin: 0;
+}
+
+.banner-image {
+    background-image: url("images/banner1.jpg");
+
+    height: 60%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+.intro{
+    height: 40%;
+    background-color: #228B22;
+    color: white;
+}
+.panda-img{
+  float: left;
+}
+.intro-text{
+  float: left;
+  position: relative;
+  left: 50px;
+  top: 10px;
+  font-size: x-large;
+}
+.home-links{
+  float: left;
+  position: relative;
+  left: 890px;
+}
+p.intro-paragraph{
+  width: 40em;
+  word-wrap: break-word;
+  margin-bottom: 0;
+}

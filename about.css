@@ -1,0 +1,80 @@
+.sky {
+  height: 100%;
+  background: #87CEEB;
+}
+.about-text {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-30%, -20%);
+    color: #000000;
+    z-index: +1;
+}
+.contact-text {
+    position: absolute;
+    top: 93%;
+    right: 0%;
+    transform: translate(-10%, -70%);
+    color: #000000;
+    z-index: +1;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+h1{
+  margin-top: 1;
+  margin-bottom: 0;
+}
+a.resume-link:link{
+  color: #000000;
+}
+a.resume-link:visited {
+    color: #000080;
+}
+a.resume-link:hover {
+    color: #008000;
+}
+a.resume-link:active {
+    color: #FA8072;
+}
