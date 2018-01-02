@@ -1,5 +1,6 @@
 body,html{
     height: 100%;
+    width: 100%;
     margin: 0;
 }
 
@@ -61,16 +62,17 @@ li a:hover:not(.active) {
   float: left;
 }
 .intro-text{
-  float: left;
-  position: relative;
-  left: 50px;
-  top: 10px;
+  position: absolute;
+  top: 85%;
+  left: 80%;
+  transform: translate(-80%, -85%);
   font-size: x-large;
 }
 .home-links{
-  float: left;
-  position: relative;
-  left: 890px;
+  position: absolute;
+  top: 93%;
+  right: 0%;
+  transform: translate(-10%, -70%);
 }
 p.intro-paragraph{
   width: 40em;

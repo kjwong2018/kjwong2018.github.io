@@ -5,8 +5,8 @@
 .about-text {
     position: absolute;
     top: 30%;
-    left: 20%;
-    transform: translate(-30%, -20%);
+    left: 25%;
+    transform: translate(-30%, -25%);
     color: #000000;
     z-index: +1;
 }
@@ -76,5 +76,17 @@ a.resume-link:hover {
     color: #008000;
 }
 a.resume-link:active {
+    color: #FA8072;
+}
+a.lux-link:link{
+  color: #000000;
+}
+a.lux-link:visited {
+    color: #000080;
+}
+a.lux-link:hover {
+    color: #008000;
+}
+a.lux-link:active {
     color: #FA8072;
 }

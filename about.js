@@ -1,3 +1,7 @@
+/*
+Let it snow by Radu Micu https://codepen.io/radum/pen/xICAB?page=6
+This version has slight modification to fit my needs.
+*/
 var particleCount = 300;
 var particleMax   = 1000;
 var sky           = document.querySelector('.sky');
